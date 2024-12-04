@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #eee8e8;
+}
+
+.header {
+    background: #dfcfcf;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar {
+    padding: 10px;
+    text-align:right;
+    background: #eee;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.top-bar nav a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #458edc;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin: 0 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background: #007bff;
+    color: white;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f8fc;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.hero-text button{
+    background-color: #6b755e;
+    color: white;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f8f8f8;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.feature {
+    text-align: center;
+    padding: 10px;
+}
+
+.deals {
+    margin-bottom: 20px;
+}
+
+.deals .products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
